@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Moon');
+
+.List-Tile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #ffffff;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+
+    font-family: "Moon";
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.List-Image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.Grid-Tile {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Moon";
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 12px;
+
+    font-size: x-large;
+}
+
+.Grid-Item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.Grid-Image {
+    width: 100%;
+    height: auto;
+}
